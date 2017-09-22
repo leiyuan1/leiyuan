@@ -1,0 +1,413 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-14 19:20:18
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-08-19 13:53:53
+*/
+/* 内容开始 */
+*{
+	margin:0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/* 家电开始 */
+main{
+	width: 1260px;
+	height: 100%;
+	margin: 0 auto;
+}
+.jiadian{
+	width: 100%;
+	height: 732px;
+	background: #f5f5f5;
+}
+.jiadian-text{
+	width: 100%;
+	height: 40px;
+	/* background: pink; */
+	padding-top: 78px;
+
+}
+.jiadian-tleft{
+	height: 22px;
+	/* background: blue; */
+	font-size: 22px;
+	color: #333333;
+	/* margin-top: 40px; */
+    float: left;
+}
+.jiadian-tright{
+	height:16px;
+	/* background: yellowgreen; */
+	margin-bottom: 22px;
+	float: right; 
+}
+.jiadian-tright a{
+	font-size: 14px;
+	color: #424242;
+	margin-right: 30px;
+
+}
+#tr2{
+	margin-right: 0;
+}
+/* 下面 */
+.jiadian-nr{
+	width: 100%;
+	height: 614px;
+	/* background: pink; */
+}
+.nr-left{
+	width: 234px;
+	height:614px;
+	/* background: blue; */
+	margin-right: 14px;
+	float: left;
+}
+/* 左边a变成块元素开始 */
+.nr-left a{
+	width: 234px;
+	height: 614px;
+	display: block;
+}
+/* 左边a变成块元素结束 */
+.nr-left a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* 左边是两栏的 */
+/* 上面 */
+.nr-left-top{
+	width: 100%;
+	height: 300px;
+	background: red;
+	margin-bottom: 14px;
+}
+.nr-left-top a{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+.nr-left-top a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.nr-left-top:hover{
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+}
+/* 下面 */
+.nr-left-bottom{
+	width: 100%;
+	height: 300px;
+	background: red;
+	/* margin-bottom: 14px; */
+}
+.nr-left-bottom a{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+.nr-left-bottom a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.nr-left-bottom:hover{
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+}
+/* 左边是两栏结束 */
+.nr-left:hover{
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+}
+/* 左两栏移动效果开始 */
+.left-two:hover{
+	box-shadow:none;
+	transform: none;
+}
+/* 左两栏移动效果结束 */
+.nr-right{
+	width: 978px;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+	display: none;
+}
+.nr-right li{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	margin-right: 14px;
+	margin-bottom: 14px;
+	float: left;
+	position: relative;
+	
+}
+.nr-rson3{
+	overflow: hidden;
+}
+.nr-rson3:hover{
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+}
+.nr-right .nr-rson1{
+	margin-right: 0;
+}
+.nr-right .nr-rson2{
+	background: #f5f5f5;
+}
+/* 优惠开始 */
+.nr-youhui{
+	width: 64px;
+	height: 20px;
+	background: #E53935;
+	font-size: 12px;
+	color: #fff;
+	text-align: center;
+	line-height: 18px;
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -32px;
+}
+/* 优惠结束 */
+/* 新品开始 */
+.xinpin{
+	background: #83c44e;
+	font-size: 12px;
+}
+/* 新品结束 */
+/* 免邮费开始 */
+.mianyoufei{
+	background: #ff6700;
+}
+/* 免邮费结束 */
+.nr-right li a img{
+	width: 150px;
+	height: 150px;
+	margin-top:30px;
+	margin-left:42px; 
+	margin-bottom:20px;
+
+}
+.nr-rtext1{
+	width: 100%;
+	height: 12px;
+	/* background: red; */
+	font-size: 12px;
+	text-align: center;
+	line-height: 12px;
+
+}
+a .nr-rtext1{
+	color: #212121;
+}
+.nr-rtext2{
+	width: 100%;
+	height: 12px;
+	/* background: red; */
+	font-size: 12px;
+	text-align: center;
+	line-height: 12px;
+	color: #b0b0b0;
+	margin-top: 11px;
+
+}
+.rtext2son{
+	color: #fe6709;
+}
+.nr-rtext3{
+	width: 100%;
+	height: 12px;
+	/* background: red; */
+	font-size: 14px;
+	text-align: center;
+	line-height: 12px;
+	color: #fe6709;
+	margin-top: 20px;
+
+}
+.rtext3son{
+	margin-top: 11px;
+}
+.nr-rtext3son{
+	color: #c1b0c1;
+	font-size: 14px;
+	text-decoration: line-through solid #c1b0c1;
+
+}
+.nr-rhide{
+	width: 194px;
+	height: 60px;
+	position: absolute;
+	left: 0;
+	bottom: -70px;
+	background: #ff6700;
+	z-index: 999;
+	font-size: 12px;
+	color: #f8f5f5; 
+	padding-top: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+.nr-right li:hover .nr-rhide{
+	bottom: 0;
+    transition: all 0.8s ease;
+}
+.nr-rhide1{
+	width: 100%;
+	height:22px;
+	/* background: red; */
+	/* margin: 0 auto; */
+	padding-top: 10px;
+	
+}
+.nr-rhide2{
+	/* width: 100%;
+	height:10px; */
+	/* background: pink; */
+	margin: 0 auto;
+	padding-top: 10px;
+	color:#dfdfdf; 
+	
+}
+/* 第八个 */
+/* 上面 */
+.rson-top{
+	width: 100%;
+	height:143px;
+	background:#fff;
+	margin-bottom: 14px; 
+}
+.nr-right li .rson-top:hover{
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+
+}
+.rson-tleft{
+	width:123px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.rson-tl1{
+	width: 93px;
+	height: 12px;
+	/* background: blue; */
+	font-size: 12px;
+	padding-left: 30px;
+	line-height: 12px;
+	margin-top:44px;
+}
+.rson-tl1 a{
+	color: #333333;
+}
+.rson-tl2{
+	width: 93px;
+	height:12px;
+	/* background: red; */
+	font-size: 12px;
+	color: #ff6700;
+	padding-left: 30px;
+	line-height: 12px;
+	margin-top: 15px; 
+}
+.rson-tright{
+	width:111px;
+	height: 100%;
+	/* background: pink; */
+	float:right;
+}
+.rson-tright a{
+	width:111px;
+	height:111px;
+	display:block;
+	/* background: yellowgreen; */
+	margin-top:16px; 
+}
+.rson-tright a .rson-trimg{
+	width:111px;
+	height:111px;
+	margin: 0;
+}
+/* 下面 */
+.rson-bottom{
+	width: 100%;
+	height:143px;
+	background:#fff; 
+
+}
+.rson-bottom:hover{
+	/* z-index:99999; */
+	box-shadow: 0 10px 10px 3px rgba(25, 21, 21, 0.1);
+	transform: translateY(-3px);
+    transition: all 0.8s ease;
+
+}
+.rson-bleft{
+	width:123px;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.rson-bl1{
+	width: 93px;
+	height: 12px;
+	/* background: blue; */
+	font-size: 12px;
+	padding-left: 30px;
+	line-height: 12px;
+	margin-top:44px;
+}
+.rson-bl1 a{
+	color: #333333;
+}
+.rson-bl2{
+	width: 93px;
+	height:12px;
+	/* background: red; */
+	font-size: 12px;
+	padding-left: 30px;
+	line-height: 12px;
+	margin-top: 15px; 
+}
+.rson-bl2 a{
+    color: #757575;
+}
+.rson-bright{
+	width:111px;
+	height: 100%;
+	/* background: pink; */
+	float:right;
+}
+.rson-bright a{
+	width:111px;
+	height:111px;
+	display:block;
+	/* background: yellowgreen; */
+	margin-top:16px; 
+}
+.rson-bright a .rson-briconfont{
+	width:111px;
+	height:111px;
+	text-align: center;
+	line-height: 111px;
+}
+
+/* 家电结束 */
+.nr-block{
+	display: block;
+}
