@@ -1,0 +1,128 @@
+/*
+* @Author: wz
+* @Date:   2017-08-26 23:16:14
+* @Last Modified by:   wz
+* @Last Modified time: 2017-08-27 01:40:28
+*/
+
+.xwzx-box{
+	background: #f0f0f0;
+	padding-top: 30px;
+}
+.zt-biaoti{
+	color: #444444;
+	font-weight: bold;
+}
+
+.zt-biaoti>a{
+	color: #444444;
+
+}
+
+.zt-biaoti>a:hover{
+    text-align: under-line;
+}
+
+
+.dzbox{
+	background: #fff;
+	height: auto;
+}
+
+.tcbox{
+	width: 1140px;
+	height: 386px;
+
+}
+
+.tcbox>img{
+	display: block;
+	width: 500px;
+	height: 300px;
+	float: left;
+	margin-left: 80px;
+	margin-top: 40px;
+}
+
+.tcww{
+	width: 475px;
+	height: 336px;
+	margin-left: 80px;
+	float: right;
+
+}
+
+.tcbox>.tcww>.ww1{
+	display: block;
+	width: 445px;
+	height: 56px;
+	font-size: 30px;
+	margin-top: 40px;
+	border-bottom: 1px solid #dfdfdf;
+
+
+}
+
+.tcbox>.tcww>.ww2{
+	display: block;
+	width: 445px;
+	height: 53px;
+	font-size: 24px;
+	color: #FF6700;
+	margin-top: 30px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.tcbox>.tcww>.ww3{
+	display: block;
+	width: 134px;
+	height: 42px;
+	font-size: 18px;
+	color: #fff;
+	background: #D9534F;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 42px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+
+
+.tcbox>.tcww>.ww3:hover{
+	background: #CC3330;
+}
+
+.tcbox>.tcww>.ww4{
+	display: block;
+	width: 445px;
+	height: 85px;
+	font-size: 14px;
+	margin-top: 20px;
+	color: #444444;
+	background: #F0F0F0;
+	line-height: 26px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-bottom: 1px solid #dfdfdf;
+}
+
+.tcxx{
+   width: 1150px;
+   padding-left: 35px;
+   padding-right: 15px;
+   padding-top: 15px;
+   height: auto;
+   background: #fff;
+   padding-top: 10px;
+   color: #444444;
+
+   border-top: 1px solid #dfdfdf;
+
+}
+
+.tcxx>p>span{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+

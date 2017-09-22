@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+
+<link rel="stylesheet" href="iconfont/iconfont.css">
+
+<style>
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+	section{
+		width: 1170px;
+		height: 700px;
+		margin: 30px auto;
+		background: #dfdfdf;
+
+		position: relative;
+	}
+
+	.bottom{
+		width: 100%;
+		height: 50px;
+
+		position: absolute;
+		top: 600px;
+		left: 0;
+	}
+
+	.zhezhao{
+		width: 100%;
+		height: 100%;
+		background: #000;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 0.5;
+	}
+
+	section>img{
+		display: block;
+		width: 100%;
+		height: 100%;
+	}
+
+	.left{
+		position: absolute;
+		left: 200px;
+		top: 100px;
+		width: 300px;
+		height:400px;
+		/* background: pink; */
+
+	}
+
+	.left>img{
+		display: block;
+		width: 100%;
+		margin: auto auto;
+
+	}
+
+	.right{
+		position: absolute;
+		left: 500px;
+		top: 0px;
+		width: 600px;
+		height: 600px;
+		padding-top: 50px;
+		padding-bottom:50px;
+	}
+	.geci-box{
+		width: 100%;
+		height: 500px;
+
+	}
+
+	.geci-box .ul1{
+		width: 100%;
+		height: 50px;
+		margin-left: 10px;
+
+		text-align: center;
+		line-height: 30px;
+		font-size: 24px;
+		color: #dfdfdf;
+	}
+
+	.geci-box .ul2{
+		width: 100%;
+		height: 420px;
+		margin-left: 10px;
+		overflow: hidden;
+
+	}
+
+	.geci-box .ul2>li{
+		width: 100%;
+		height: 30px;
+		text-align: center;
+		line-height: 30px;
+		font-size: 14px;
+		color: #dfdfdf;
+
+
+	}
+
+
+	.jdt{
+        width:400px;
+        height: 50px;
+        margin-left: 40px;
+   
+        margin-top: 10px;
+
+        display: flex;
+        justify-content: space-between;
+        float: left;
+        /* position: relative; */
+
+	}
+
+	.jdt>.kssj{
+		width: 50px;
+		height: 30px;
+		font-size: 12px;
+		text-align: center;
+		line-height: 30px;
+		color: #dfdfdf;
+
+	}
+
+	.jdt>.jssj{
+		width: 50px;
+		height: 30px;
+		font-size: 12px;
+		text-align: center;
+		line-height: 30px;
+		color: #dfdfdf;
+	}
+
+	.jdt>.jindux{
+		width: 270px;
+		height: 5px;
+		background: #ccc;
+		border-radius: 5%;
+		margin-top: 13px;
+
+	}
+
+	.jindux>.jindu{
+        width: 0;
+		height: 5px;
+		background: #ff6700;
+		border-radius: 5%;
+
+	}
+
+
+	.kongjian{
+        width: 200px;
+        height: 50px;
+        margin-left: 150px;
+  
+        display: flex;
+        justify-content: space-between;
+        float: left;
+
+	}
+
+	.kongjian>.kj1{
+		width: 25px;
+		height: 25px;
+        font-family: 'iconfont';
+		margin-top: 15px;
+		font-size: 25px;
+		color: #dfdfdf;
+
+	
+
+	}
+
+	.kongjian>.kj2{
+		width: 35px;
+		height: 35px;
+		margin-top: 10px;
+
+		font-family: 'iconfont';
+		font-size: 35px;
+		color: #dfdfdf;
+
+
+	}
+
+	.kongjian>.kj3{
+		width:25px;
+		height: 25px;
+        font-family: 'iconfont';
+		margin-top: 15px;
+		font-size: 25px;
+		color: #dfdfdf;
+
+	}
+
+	.icon{
+		margin-top: 13px;
+		width: 80px;
+		height: 30px;
+		float: left;
+		margin-left: 40px;
+
+
+	}
+
+	.icon>.iconfont{
+		font-family: 'iconfont';
+		color: #dfdfdf;
+		width: 30px;
+		height: 30px;
+		float: left;
+		font-size: 20px;
+		margin-left: 10px;
+
+	}
+
+	.icon-yinliang-copy{
+		margin-top: 13px;
+		margin-left: 40px;
+		font-family: 'iconfont';
+		color: #dfdfdf;
+		width: 30px;
+		height: 30px;
+		float: left;
+		font-size: 20px;
+
+
+	}
+
+
+	.yinliang{
+       width: 120px;
+       height: 30px;
+       float: left;
+       position: relative;
+       margin-top: 20px;
+ 
+
+	}
+
+	.yl1{
+		width: 100px;
+		height: 4px;
+		margin-top: 3px;
+		margin-left: 10px;
+		background: #dfdfdf;
+	}
+
+	.yl2{
+		width: 10px;
+		height: 10px;
+		background: #ff6700;
+		border-radius: 50%;
+		position: absolute;
+		top: 0;
+		left: 15px;
+	}
+
+	.yl3{
+		width: 10px;
+		height: 4px;
+		top: 3px;
+		position: absolute;
+		left: 10px;
+		background: #ff6700;
+	}
+
+	.bffs{
+		width: 200px;
+		height: 40px;
+		display: flex;
+		justify-content: space-between;
+		position: absolute;
+		top: 530px;
+		left: 250px;
+
+	}
+
+	.bffs>.bf1{
+		width: 40px;
+		height: 40px;
+		color: #fff;
+		font-size: 22px;
+		text-align: center;
+		line-height: 40px;
+
+	}
+
+	.bffs>.color{
+		color: #ff6700;
+	}
+
+
+
+
+</style>
+<body>
+
+<section>
+
+   <img src="images/1.jpg" alt="">
+   <div class="zhezhao"></div>
+
+<div class="left">
+<img src="images/rz.jpg" alt="">
+</div>
+<div class="right">
+ <div class="geci-box">
+
+   <ul class="ul1"></ul>
+
+ 	<ul class="ul2">
+
+ 	</ul>
+ </div>
+
+
+
+</div>
+
+<div class="bottom">
+
+  <div class="kongjian">
+	   <audio src="music/幸福的错觉.mp3"></audio>  
+	   <div class="kj1 icon-houtui"></div>
+	   <div class="kj2 icon-zanting"></div>
+	   <div class="kj3 icon-qianjin"></div>
+  </div>
+
+
+  <div class="jdt">
+	  	<div class="kssj"></div>
+	  	<div class="jindux">
+	  	<div class="jindu"></div>
+	  	</div>
+	  	<div class="jssj"></div>
+  </div>
+
+  <div class="icon">
+
+  <div class="iconfont icon-shoucang"></div>
+  <div class="iconfont icon-xiazai"></div>
+ </div>
+
+  <div class="iconfont icon-yinliang-copy"></div>
+
+  <div class="yinliang">
+  	<div class="yl1"></div>
+  	<div class="yl2"></div>
+  	<div class="yl3"></div>
+  </div>
+</div>
+
+<div class="bffs">
+   <div class="bf1 iconfont icon-xunhuanbofang color"></div>	
+   <div class="bf1 iconfont icon-danquxunhuan"></div>	
+   <div class="bf1 iconfont icon-suijibofang"></div>	
+</div>
+
+</section>	
+</body>
+
+<script src="database.js"></script>
+<script src="index.js"></script>
+</html>

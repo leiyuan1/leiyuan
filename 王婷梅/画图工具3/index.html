@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<link rel="stylesheet" href="iconfont/iconfont.css">
+
+
+
+
+
+<style>
+	*{
+		padding: 0;
+		margin: 0;
+		list-style: none;
+	}
+
+	.top{
+		width: 100%;
+		height: 100px;
+		background: #DFE9F5;
+		border-bottom: 1px solid #9FAEC2;
+		box-shadow: inset 0px 25px 50px 0px #F7FBFF;
+		position: relative;
+	}
+
+	.left{
+		width: 100px;
+		height: 500px;
+		background: #ff6700;
+
+	}
+
+	.center{
+		position: absolute;
+		top: 0px;
+		bottom: 0;
+		left: 0px;
+		right: 0;
+		background: #C5CFDF;
+		position: relative;
+	}
+
+	.mask{
+		width: 1200px;
+		height: 600px;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+		/* background: pink; */
+	}
+
+	canvas{
+		background: #fff;
+		box-shadow: 5px 5px 10px 0px #ABB8CA;
+		margin-top: 5px;
+		margin-left: 5px;
+	}
+
+
+    .esr{
+       	position: absolute;
+       	width: 20px;
+       	height: 20px;
+       	background: #ff6700;
+       	top: 0;
+       	left: 0;
+        border-radius: 50%;
+        display: none;
+       }
+
+
+	.gn1{
+		width: 200px;
+		height: 100px;
+		padding-right: 30px;
+		position: absolute;
+		left: 50px;
+		display: flex;
+
+		/* flex-wrap: wrap; */
+		justify-content: space-around;
+		/* justify-content: center; */
+		align-items: center;
+	}
+
+	.gn1>label{
+		width: 50px;
+		height: 50px;
+		border: 1px solid #ff6700;
+		font-size: 22px;
+		line-height: 50px;
+	}
+
+	.gn1>a{
+		width: 50px;
+		height: 50px;
+		border: 1px solid #ff6700;
+		font-size: 22px;
+		line-height: 50px;
+	}
+
+	.gn2{
+		width: 110px;
+		height: 70px;
+		padding-right: 30px;
+		position: absolute;
+		top: 15px;
+		left: 340px;
+		display: flex;
+       flex-wrap: wrap;
+		justify-content: space-between;
+		/* justify-content: center; */
+		align-items: center;
+		align-content: space-between;
+	}
+
+	.gn2>label{
+		width: 30px;
+		height: 30px;
+		border: 1px solid #ff6700;
+	}
+
+	.gn3{
+		width: 110px;
+		height: 40px;
+		padding-right: 30px;
+		position: absolute;
+		top: 15px;
+		left: 500px;
+		display: flex;
+		/* flex-wrap: wrap; */
+		justify-content: space-around;
+		/* justify-content: center; */
+		/* align-items: center; */
+		/* align-content: space-around; */
+	}
+
+	.gn3>label{
+		width: 30px;
+		height: 30px;
+		border: 1px solid #ff6700;
+	}
+
+	.gn5{
+		width: 147px;
+		height: 40px;
+		padding-right: 30px;
+		position: absolute;
+		top:53px;
+		left: 500px;
+		display: flex;
+		/* flex-wrap: wrap; */
+		justify-content: space-around;
+		/* justify-content: center; */
+		/* align-items: center; */
+		/* align-content: space-around; */
+	}
+
+	.gn5>label{
+		width: 30px;
+		height: 30px;
+		border: 1px solid #ff6700;
+	}
+
+	.gn1>label:hover{
+		font-size: 26px;
+		transition: all 0.5s;
+	}
+
+	label:hover{
+		font-size: 18px;
+		transition: all 0.5s;
+	}
+
+
+
+    .gn4{
+		width: 80px;
+		height: 80px;
+		padding-right: 30px;
+		position: absolute;
+		left: 690px;
+		display: flex;
+		flex-wrap: wrap;
+		margin-top: 10px;
+		justify-content: space-around;
+		/* justify-content: center; */
+		/* align-items: center; */
+		align-content: space-around;
+
+	}
+
+    
+	.gn4>label{
+		width: 30px;
+		height: 30px;
+		border: 1px solid #ff6700;
+		font-size: 16px;
+		line-height: 30px;
+	}
+
+	/* label:hover{
+		font-size: 28px;
+		transition: all 0.5s;
+	}
+	 */
+
+	.iconfont{
+		font-family: 'iconfont';
+		color: #666666;
+		font-size: 14px;
+		text-align: center;
+		line-height: 30px;
+	}
+
+	input{
+		width: 20px;
+		height: 20px;
+
+	}
+
+
+
+
+    @font-face {
+	  font-family: 'iconfont';  /* project id 398734 */
+	  src: url('http://at.alicdn.com/t/font_398734_ao2wk8owckmaemi.eot');
+	  src: url('http://at.alicdn.com/t/font_398734_ao2wk8owckmaemi.eot?#iefix') format('embedded-opentype'),
+	  url('http://at.alicdn.com/t/font_398734_ao2wk8owckmaemi.woff') format('woff'),
+	  url('http://at.alicdn.com/t/font_398734_ao2wk8owckmaemi.ttf') format('truetype'),
+	  url('http://at.alicdn.com/t/font_398734_ao2wk8owckmaemi.svg#iconfont') format('svg');
+   }
+
+   @font-face {
+		  font-family: 'iconfont';  /* project id 398734 */
+		  src: url('http://at.alicdn.com/t/font_398734_y4gmf2sdlxbc5wmi.eot');
+		  src: url('http://at.alicdn.com/t/font_398734_y4gmf2sdlxbc5wmi.eot?#iefix') format('embedded-opentype'),
+		  url('http://at.alicdn.com/t/font_398734_y4gmf2sdlxbc5wmi.woff') format('woff'),
+		  url('http://at.alicdn.com/t/font_398734_y4gmf2sdlxbc5wmi.ttf') format('truetype'),
+		  url('http://at.alicdn.com/t/font_398734_y4gmf2sdlxbc5wmi.svg#iconfont') format('svg');
+}
+
+.baocun>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+
+}
+
+
+.caiqie{
+	position: absolute;
+	display: none;
+	border: 1px dashed #666666;
+
+}
+
+
+</style>
+
+<body>
+
+<div class="top">
+
+  <div class="gn1">
+    <label for="" class="xinjian iconfont icon-xinjian"></label>
+	<!-- <label for="" class="baocun iconfont icon-msnui-save">  <a href="" class="aa"></a></label> -->
+	<a href="" class="baocun iconfont icon-msnui-save"></a>
+	<label for="" class="chexiao iconfont icon-qiepian10"></label>
+  </div>
+
+
+   <div class="gn4">
+ 
+	<label for="" class="miaobian iconfont icon-miaobian" id="stroke" active='mm'></label>
+
+    <label for="" class="mb iconfont">
+		<input type="color" class="mbcolor">
+	</label>
+    <label for="" class="tianchong iconfont icon-tianchong" id="fill"></label>
+	<label for="" class="tc iconfont">
+	    <input type="color" class="tccolor">
+	</label>
+
+  </div>
+  <div class="gn2">
+    <label for="" class="xiangpi iconfont icon-xiangpi"></label>
+	<label for="" class="caijian iconfont icon-tuxiangchulileiiconshuchu04"></label>
+	<label for="" class="fanxiang iconfont icon-ic_invert_colors_px"></label>
+	<label for="" class="wenzi iconfont icon-45823"></label>
+	<label for="" class="jiacu iconfont icon-jiacu"></label>
+	<label for="" class="qinxie iconfont icon-xiahuaxian1"></label>
+  </div>
+  <div class="gn3">
+	<label for="" class="shixian iconfont icon-xiantiao1 bb" id="line" ></label>
+
+	<label for="" class="huaxian iconfont icon-huaxian icon-huaxian bb"></label>
+	<label for="" class="xuxian iconfont icon--xuxian bb" id="dash"></label>
+ </div>
+ <div class="gn5">
+	<label for="" class="dbx iconfont icon-duobianxing bb" id="dbx"></label>
+	<label for="" class="djx iconfont bb  icon-unie60d" id="djx"></label>
+	<label for="" class="yuan iconfont icon-yuan1 bb" id="yuan"></label>
+	<label for="" class="juxing iconfont icon-juxing bb" id="juxing"></label>	
+  </div>
+</div>
+
+<!-- <div class="left"></div> -->
+<div class="center">
+	<canvas width="1200" height="600"></canvas>	
+    <div class="esr"></div>
+    <div class="caiqie"></div>
+	<div class="mask"></div>
+
+</div>
+	
+</body>
+
+<script src="js/point.js"></script>
+<script src="js/index.js"></script>
+</html>
