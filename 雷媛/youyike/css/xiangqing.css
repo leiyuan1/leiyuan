@@ -1,0 +1,282 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-21 17:14:47
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-23 16:50:12
+*/
+body{
+	background: #f5f6fa;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.header-son{
+	width: 2.02rem;
+	height: 100%;
+    margin: 0 auto;
+   background: #0078e6;
+}
+.header-logo{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: url('../img/logo.png') no-repeat center center;
+	background-size: 0.71rem 0.71rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.header-text{
+	width: 1.16rem;
+	height: 100%;
+	float: right;
+	background: #0078e6;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #ffffff;
+}
+.header-top{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.80rem;
+	background: red;
+}
+.banner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 首页开始 */
+.text{
+	width: 100%;
+	height: 0.64rem;
+	/* background: blue; */
+
+}
+.text a{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+.text span{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+/* 首页结束 */
+/* 概述开始 */
+.gaishu{
+	width: 7.04rem;
+	height: 4.07rem;
+	/* background: red; */
+	margin:0 auto 0.2rem;
+
+}
+.gaishu-top{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+	overflow: hidden;
+
+}
+.gaishu-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+    margin-top: 0.32rem;
+    margin-left: 0.19rem;
+    float: left;
+}
+.gaishu-tright{
+	width: 90%;
+	height: 0.36rem;
+	background: #fff;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.23rem;
+     font-weight: bold;
+    color:#444444;
+    line-height: 0.23rem; 
+    border-bottom: 0.01rem dashed #999999;
+    float: left;
+}
+.gaishu-bottom{
+	width: 100%;
+	height: 3.39rem;
+	background: #fff;
+}
+.gaishu-bleft{
+	width: 2.81rem;
+	height: 2.81rem;
+	/* background: gray; */
+	margin-top: 0.28rem;
+	margin-left: 0.4rem;
+	border-radius: 0.1rem;
+	float: left;
+}
+.gaishu-bleft img{
+	width: 2.81rem;
+	height: 2.81rem;
+	border-radius: 0.1rem;
+	display: block;
+}
+.gaishu-bright{
+	width: 3.5rem;
+	height: 100%;
+	/* background: yellow; */
+	float: right;
+}
+.gaishu-br1{
+	/* width: 3.5rem; */
+	height:0.3rem;
+	padding-top: 0.4rem;
+	/* background: red; */
+	font-size: 0.3rem;
+	color: #000; 
+}
+.br1-1{
+	float: left;
+}
+.br1-2{
+	/* height: 0.3rem; */
+	padding-top: 0.05rem;
+	font-size: 0.19rem;
+	color: #58c5ff;
+	margin-left: 0.08rem;
+	float: left;
+}
+.gaishu-br2{
+	width: 100%;
+	height: 0.28rem;
+	margin-top: 0.6rem;
+	/* background: green; */
+	font-size: 0.2rem;
+	color: #000000;
+}
+.gaishu-br2 span{
+	font-size: 0.23rem;
+	float: left;
+	font-weight: bold;
+}
+.gaishu-br3{
+	width: 100%;
+	height: 0.71rem;
+	margin-top: 0.15rem;
+	/* background: green; */
+	font-size: 0.2rem;
+	color: #000000;
+}
+.gaishu-br3 span{
+	font-size: 0.23rem;
+	float: left;
+	font-weight: bold;
+}
+.br-son{
+	height: 100%;
+	/* background: gray; */
+	float: left;
+}
+.br4{
+	margin-top: 0.16rem;
+}
+/* 概述结束 */
+/* 教师简介开始 */
+.jianjie{
+	width: 7.04rem;
+	height: 4.9rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.jianjie-top{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+	overflow: hidden;
+
+}
+.jianjie-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+    margin-top: 0.32rem;
+    margin-left: 0.19rem;
+    float: left;
+}
+.jianjie-tright{
+	width: 90%;
+	height: 0.36rem;
+	background: #fff;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.23rem;
+     font-weight: bold;
+    color:#444444;
+    line-height: 0.23rem; 
+    border-bottom: 0.01rem dashed #999999;
+    float: left;
+}
+.jianjie-bottom{
+	width: 100%;
+	height: 4.22rem;
+	/* background: blue; */
+}
+.jianjie-bottom p{
+	width:90%;
+	height: 50%;
+	margin-left:0.43rem;
+	font-size: 0.2rem;
+	color: #666666;
+}
+/* 教师简介结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	/* background: gray; */
+	
+}
+footer span{
+	width: 100%;
+	height: 0.21rem;
+	margin-top: 0.25rem;
+	display: block;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.21rem;
+}
+/* 底部结束 */

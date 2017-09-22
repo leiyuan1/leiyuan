@@ -1,0 +1,374 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-21 08:52:36
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-23 16:47:44
+*/
+html{
+	background: #f5f6fa;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.header-son{
+	width: 2.02rem;
+	height: 100%;
+    margin: 0 auto;
+   background: #0078e6;
+}
+.header-logo{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: url('../img/logo.png') no-repeat center center;
+	background-size: 0.71rem 0.71rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.header-text{
+	width: 1.16rem;
+	height: 100%;
+	float: right;
+	background: #0078e6;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #ffffff;
+}
+.header-top{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.80rem;
+	background: red;
+}
+.banner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 首页开始 */
+.text{
+	width: 100%;
+	height: 0.64rem;
+	/* background: blue; */
+
+}
+.text a{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+.text span{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+/* 首页结束 */
+/* 课程开始 */
+.course{
+	width: 100%;
+	height: 1.05rem;
+	/* background: red; */
+	overflow: hidden;
+}
+.course-son{
+	width: 7.04rem;
+	height: 0.8rem;
+	background: #f5f6fa;
+	margin-top: 0.05rem;
+	margin-left: 0.23rem;
+	border: 0.02rem solid #01b5ff;
+	box-sizing: border-box;
+	border-radius: 0.1rem;
+}
+.course-son1{
+	width: 33.3333%;
+	height: 100%;
+	background: #01b5ff;
+	border-radius: 0.1rem;
+	float: left;
+
+}
+.course-son1 a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.25rem;
+	color: #fff;
+	text-align: center;
+	line-height: 0.8rem;
+	font-family: "黑体";
+}
+.course-sanjao{
+	width: 0rem;
+	height: 0rem;
+	border-top: 0.15rem solid #01b5ff;
+	border-left: 0.15rem solid transparent;
+	border-right: 0.15rem solid transparent;
+	border-bottom: 0.15rem solid transparent;
+	margin-left: 1.17rem;
+}
+.course-son2{
+	width: 33.3333%;
+	height: 100%;
+	/* background: #01b5ff; */
+	/* border-radius: 0.1rem; */
+	float: left;
+
+}
+.course-son2 a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 0.25rem;
+	color: #000;
+	text-align: center;
+	line-height: 0.8rem;
+	font-family: "黑体";
+}
+/* 课程结束 */
+/* 介绍开始 */
+.jieshao{
+	width: 7.04rem;
+	height: 2.7rem;
+	background: #fff;
+	margin: 0 auto 0.1rem;
+}
+.jieshao a{
+	width: 7.04rem;
+	height: 2.7rem;
+	display: block;
+}
+.jieshao-left{
+	width: 2.3rem;
+	height: 2.3rem;
+	background: #c8c8c8;
+	margin: 0.2rem 0.3rem 0.2rem 0.2rem;
+	border-radius: 0.1rem;
+	float: left;
+}
+.jieshao-left img{
+	width: 2.3rem;
+	height: 2.3rem;
+	display: block;
+	border-radius: 0.1rem;
+}
+.jieshao-right{
+	width: 4.2rem;
+	height: 100%;
+	/* background: red; */
+	float: right;
+}
+.jieshao-r1{
+	height: 0.31rem;
+	padding-top: 0.35rem;
+	/* background: red; */
+
+}
+.r1-son1{
+	height: 0.31rem;
+	font-size: 0.3rem;
+	/* font-family: "黑体"; */
+	color: #000;
+	line-height: 0.31rem;
+	float: left;
+	/* background: green; */
+}
+.r1-son2{
+	height: 0.22rem;
+	font-size: 0.22rem;
+	/* padding-top: 0.15rem; */
+	margin-left: 1.5rem;
+	color: #ff9300;
+	line-height: 0.22rem;
+	float: left;
+	/* background: green; */
+}
+.jieshao-r2{
+	height: 0.22rem;
+	/* background: yellow; */
+	font-size: 0.02rem;
+	line-height: 0.11rem;
+	color: #727272;
+
+}
+.jieshao-r3{
+	height: 0.25rem;
+	/* background: yellow; */
+	font-size: 0.24rem;
+	line-height: 0.25rem;
+	padding-top: 0.1rem;
+	margin-bottom: 0.1rem;
+	color: #01b5ff;
+
+}
+.jieshao-r4{
+	height:1.32rem;
+	/* background: yellow; */
+	font-size: 0.22rem;
+	text-align: left;
+	/* line-height: 0.25rem; */
+	/* margin-bottom: 0.1rem; */
+	color: #666666;
+
+}
+/* 介绍结束 */
+/* 跳转开始 */
+    
+.tiaozhuan{
+	width: 100%;
+	height: 0.7rem;
+	background: #fff;
+	overflow: hidden;
+}
+.tiaozhuan-son1{
+   width: 0.58rem;
+   height: 0.32rem;
+   background: red;
+   margin-left: 0.2rem;
+   margin-top:0.19rem;
+   float: left;
+}
+.tiaozhuan-son1 a{
+   width: 0.58rem;
+   height: 0.32rem;
+  display: block;
+}
+.tiaozhuan-son1 a img{
+   width: 0.58rem;
+   height: 0.32rem;
+  display: block;
+}
+.son2{
+	margin-left: 0.16rem;
+}
+.tiaozhuan-son3{
+	width: 0.58rem;
+    height: 0.32rem;
+    border: 0.01rem solid #999999;
+    float: left;
+    border-radius: 0.3rem;
+    margin-left: 0.05rem;
+    margin-right: 0.05rem;
+    margin-top:0.19rem;
+}
+.son3-son{
+	width: 0.5rem;
+    height: 0.25rem;
+    border: 0.01rem solid #e3e2e3;
+    border-radius: 0.3rem;
+    margin: 0.02rem auto;
+    background: #fafafa;
+}
+.tiaozhuan-son2{
+   width: 0.32rem;
+   height: 0.32rem;
+   background: #fff;
+   border: 0.01rem solid #d4d4d4;
+   border-radius: 50%;
+   margin-left: 0.1rem;
+   margin-top:0.19rem;
+   float: left;
+}
+.tiaozhuan-son2 a{
+   width: 0.32rem;
+   height: 0.32rem;
+  display: block;
+}
+.son1{
+	background: #01b5ff;
+}
+.son2-son{
+	 width: 0.26rem;
+     height: 0.26rem;
+     background: #fff;
+     border: 0.01rem solid #060606;
+     border-radius: 50%;
+     margin: 0.02rem auto;
+     font-size: 0.13rem;
+     text-align: center;
+     line-height: 0.26rem;
+     /* font-weight: bold; */
+     color: #000;
+
+}
+.son4{
+	background: #01b5ff;
+}
+.son5{
+	width: 0.44rem;
+	height: 0.44rem;
+	/* background: red; */
+}
+.son6{
+	width: 0.4rem;
+	height: 0.4rem;
+	/* background: green; */
+	line-height: 0.4rem;
+}
+.tiaozhuan span{
+	height: 0.32rem;
+	display: block;
+	 margin-left: 0.15rem;
+   margin-top:0.19rem;
+   font-size: 0.16rem;
+   color: #000;
+   float: left;
+
+}
+.tiaozhuan .ye{
+	margin-left: 0rem;
+}
+/* 跳转结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	/* background: gray; */
+	
+}
+footer span{
+	width: 100%;
+	height: 0.21rem;
+	margin-top: 0.25rem;
+	display: block;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.21rem;
+}
+/* 底部结束 */

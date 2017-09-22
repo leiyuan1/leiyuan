@@ -1,0 +1,337 @@
+/*
+* @Author: lenovo
+* @Date:   2017-09-03 19:27:32
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-03 21:37:37
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*头部开始*/
+header{
+	width: 100%;
+	height: 70px;	
+}
+main{
+	width: 1230px;
+	height: 100%;
+	/* background: red; */
+	margin:0 auto;
+}
+.head-top{
+	width: 255px;
+	height: 100%;
+	margin: 0 auto;
+}
+.head-top img{
+   width:255px;
+   height: 51px;
+   margin-top: 10px;
+}
+/*头部结束*/
+/* 品牌介绍开始 */
+.pinpai{
+	width: 100%;
+	height: 120px;
+}
+.brand{
+	background: #EBC3C5;
+}
+.headline{
+	width: 200px;
+	height: 62px;
+	/* background: green; */
+	margin: 0 auto;
+	padding-top: 29px;
+	font-size: 35px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 62px;
+}
+/* 品牌介绍结束 */
+/* 分类开始 */
+.classify{
+	width: 100%;
+	height: 90px;	
+}
+.type{
+
+	width: 546px;
+	height: 40px;
+	/* background: green; */
+	padding-top: 25px;
+	margin: 0 auto;
+}
+.type li{
+	width: 147px;
+	height: 40px;
+	float: left;
+	margin-right: 10px;
+	background: #FAFAFA;
+	
+}
+.type li:first-child{
+	width: 75px;
+	height: 100%;
+	background: #EBC3C5;
+	
+}
+.type li:hover{
+	background: #EBC3C5;
+}
+.type li:last-child{
+	margin-right: 0px;
+
+}
+.type li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	font-size: 16px;
+	color: #232323;
+	font-weight: 300;
+	text-align: center;
+	line-height: 40px;
+}
+.type li:first-child a{
+	color: #fff;
+}
+.type li a:hover{
+	color: #fff;
+}
+/* 分类结束 */
+/* 介绍开始 */
+.all-img{
+	width: 100%;
+	height: 746px;
+
+}
+.imgs{
+	width: 100%;
+	height: 100%;
+	background: red;
+}
+.imgs li{
+	width: 20%;
+	height: 50%;
+	float: left;
+	background: pink;
+	position: relative;
+	transition: all ease 0.8s;
+}
+.imgs li a{
+	width: 100%;
+	height:100%;
+	display: block;
+}
+.imgs li a img{
+	width: 100%;
+	height:100%;
+}
+.temp{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(255, 255, 255, 0)
+    
+}
+.temp-top{
+	width: 150px;
+	height: 40px;
+	background: #272822;
+	position: absolute;
+	top: -40px;
+	left: 50%;
+	margin-left: -75px;
+	text-align: center;
+	line-height: 40px;
+	opacity: 0;
+	transition: all ease 0.8s;
+}
+.temp-top a{
+	width: 100%;
+	height: 40px;
+	display: block;
+}
+.icon-eye{
+	font-size: 20px;
+	color: #fff;
+
+}
+.temp-top a span:last-child{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 15px;
+}
+.temp-bottom{
+	width: 150px;
+	height: 40px;
+	background: #272822;
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -75px;
+	text-align: center;
+	line-height: 40px;
+	transition: all ease 0.8s;
+	opacity: 0;
+}
+.icon-ep--{
+	font-size: 20px;
+	color: #fff;
+
+}
+.temp-bottom a span:last-child{
+	font-size: 16px;
+	color: #fff;
+	padding-left: 15px;
+}
+/* .imgs li:hover .temp{
+    background: rgba(255, 255, 255, 0.5)
+}
+.imgs li:hover .temp-top{
+	top: 38%;
+	opacity: 1;
+}
+.imgs li:hover .temp-bottom{
+	top: 54%;
+	opacity: 1;
+} */
+/* 介绍结束 */
+
+
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 473px;
+	background: #FAFAFA;
+	position: relative;
+}
+footer main{
+	padding-left: 30px;
+	box-sizing: border-box;
+	padding-top: 40px;
+}
+.footer1-top{
+	width: 255px;
+	height: 70px;
+	margin: 0 auto;
+}
+.footer1-top img{
+   width:255px;
+   height: 51px;
+   margin-top: 10px;
+}
+.footer-top{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footer-son{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+.footer-son h3{
+	width: 100%;
+	font-size: 25px;
+	color: #FF3A5F;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 36px;
+	font-weight: 400;
+}
+.footer-son ul{
+	width: 100%;
+	height: auto;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.footer-son ul li{
+	width: 100%;
+	height: auto;
+}
+.footer-son ul li span{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	color: #323232;
+	text-align: left;
+	padding-bottom: 15px;
+}
+.footer-son ul li a{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	color: #323232;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.footer-son ul li a:hover{
+	color: #FF3A5F;
+}
+/* 最后一栏开始 */
+.footer-son:last-child ul li{
+	width: 40px;
+	height: 40px;
+	float: left;
+	 margin-right: 10px;
+}
+.footer-son:last-child ul li a{
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	display: block;
+    background: rgba(56, 56, 56, 0.8);
+    border-radius: 50%;
+    font-size: 18px;
+    color:  #B9B9B9;
+    text-align: center;
+    line-height: 45px;
+   
+}
+.footer-son:last-child ul li .icon-f{
+	 font-size: 26px;
+	 font-weight: 500;
+}
+.footer-son:last-child ul li .icon-vk{
+	 font-size: 22px;
+}
+.footer-son:last-child ul li:first-child a:hover{
+	background: #5D7E9D;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(2) a:hover{
+	background: #2E5AC4;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(3) a:hover{
+	background: #E37117;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(4) a:hover{
+	background: #678698;
+	color: #FF3A5F;
+}
+/* 最后一栏结束 */
+.footer-bottom{
+	width: 100%;
+	height: 30px;
+	/* background: red; */
+	margin-top: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #bbb;
+}
+/* 底部结束 */
+

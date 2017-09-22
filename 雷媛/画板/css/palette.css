@@ -1,0 +1,210 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-28 19:16:13
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-08-30 19:47:05
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+main{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	background: #262626;
+}
+.top{
+	width: 100%;
+	height: 37px;
+	background: #535353;
+}
+.top ul{
+	width: 100%;
+	height: 100%;
+	padding-left: 50px;
+}
+.top ul li{
+	width: 30px;
+	height: 100%;
+	margin-right: 10px;
+	float: left;
+	background: red;
+}
+.top ul li a{
+	width: 30px;
+	height: 100%;
+	margin-bottom: 10px;
+	background:#dfdfdf;
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 37px;
+	color: #fff;
+}
+.bottom{
+	width: 100%;
+	height:calc(100% - 37px);
+	/* background: red; */
+}
+.left{
+	width: 70px;
+	height: 100%;
+	background: #535353;
+	float: left;
+	border-top: 4px solid #353535;
+	box-sizing: border-box;
+}
+.left ul{
+	width: 70px;
+	height:auto;
+	padding-top: 20px;
+	overflow: hidden;
+	border-bottom: 1px solid #dfdfdf;
+}
+.left ul li{
+	width: 30px;
+	height: 30px;
+	margin-bottom: 10px;
+	background: red;
+	float: left;
+	margin-right: 5px;
+}
+.left ul li a{
+	width: 30px;
+	height: 30px;
+	margin-bottom: 10px;
+	background:#dfdfdf;
+	display: block;
+	font-size: 22px;
+	font-weight: 600;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border: 2px solid #333;
+	box-sizing: border-box;
+
+}
+.left ul li a[active=true]{
+	border: 2px solid #ff6700;
+	/* transform: scale(1.2, 1.2); */
+}
+.select{
+   width: 70px;
+   height: auto;
+   border-bottom: 1px solid #dfdfdf;
+   overflow: hidden;
+   margin-top: 10px;
+}
+.select-son1{
+	width: 30px;
+	height: 30px;
+	margin-bottom: 10px;
+	background:#dfdfdf;
+	display: block;
+	font-size: 22px;
+	/* font-weight: 600; */
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border: 2px solid #333;
+	box-sizing: border-box;
+	margin-right: 5px;
+	float: left;
+}
+.select-son{
+	width: 30px;
+	height: 30px;
+	margin-bottom: 10px;
+	background:#dfdfdf;
+	display: block;
+	font-size: 22px;
+	/* font-weight: 600; */
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border: 2px solid #333;
+	box-sizing: border-box;
+	margin-right: 5px;
+	float: left;
+	position: relative;
+}
+.icon-secaiban{
+	width: 100%;
+	height: 100%;
+	background:#dfdfdf;
+	font-size: 22px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+	box-sizing: border-box;
+
+}
+.icon-secaiban1{
+	width: 100%;
+	height: 100%;
+	background:#dfdfdf;
+	font-size: 22px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border:none;
+    position: absolute;
+    top: 0;
+    left: 0;
+	box-sizing: border-box;
+
+}
+.right{
+	width:calc(100% - 70px);
+	height: 100%;
+	background: #262626;
+	float: left;
+	position: relative;
+
+}
+.rubber{
+	width: 30px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #ff6700;
+	position: absolute;
+	top: 0;
+	left: 0;
+	box-sizing: border-box;
+	display: none;
+}
+.taikuang{
+	border: 1px dashed #333;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+canvas{
+	position: absolute;
+	top: 0;
+	left: 0;
+	/* border: 3px solid #dfdfdf; */
+	background: #262626;
+}
+.mask{
+	width: 1239px;
+	height: 584px;
+	background: rgba(25, 25, 25, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}

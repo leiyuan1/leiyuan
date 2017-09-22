@@ -1,0 +1,243 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/*头部开始*/
+header{
+	width: 100%;
+	height: 70px;	
+}
+main{
+	width: 1230px;
+	height: 100%;
+	/* background: red; */
+	margin:0 auto;
+}
+.head-top{
+	width: 255px;
+	height: 100%;
+	margin: 0 auto;
+}
+.head-top img{
+   width:255px;
+   height: 51px;
+   margin-top: 10px;
+}
+/*头部结束*/
+/* 品牌介绍开始 */
+.pinpai{
+	width: 100%;
+	height: 120px;
+	margin-top: 0px;
+}
+.brand{
+	background: #EBC3C5;
+}
+.headline{
+	width: 200px;
+	height: 62px;
+	/* background: green; */
+	margin: 0 auto;
+	padding-top: 29px;
+	font-size: 35px;
+	font-weight: 300;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 62px;
+}
+/* 品牌介绍结束 */
+section{
+	width: 100%;
+	height: 380px;
+    margin-top:55px;
+    margin-bottom:35px; 
+}
+.line1{
+	width: 1140px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.line1 img{
+	width: 100%;
+	height: 100%;
+}
+.line1-son{
+	width: 550px;
+	height: 257px;
+	background: rgba(255, 255, 255, 0.5);
+	position: absolute;
+	left:45px;
+	top: 50%;
+	margin-top: -128px;
+	padding-top: 40px;
+	box-sizing: border-box;
+}
+.line1-xian{
+	width:100px;
+	height: 2px;
+	background: #5D5D5D;
+	position: absolute;
+	left:-33px;
+	top: 120px; 
+}
+.line1-son a:first-of-type{
+	font-size:26px;
+	margin-left:30px;
+	color: #595A5A;  
+}
+
+.line1-son p{
+	width:490px;
+	height:auto;
+	margin-left: 30px;
+	line-height: 20px; 
+	margin-top: 20px;
+}
+.line1-son a:last-of-type{
+	width: auto;
+	height: 30px;
+	display: block;
+	font-size:16px;
+	margin-top: 20px;
+	margin-left:30px;
+	color: #595A5A;  
+}
+.line1-son a span:first-of-type{
+	padding-bottom: 3px;
+	border-bottom:2px solid #5A5B5C; 
+}
+
+.line1-son a:hover{
+	color:#F2CECE;
+}
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 473px;
+	background: #FAFAFA;
+	position: relative;
+}
+footer main{
+	padding-left: 30px;
+	box-sizing: border-box;
+	padding-top: 40px;
+}
+.footer1-top{
+	width: 255px;
+	height: 70px;
+	margin: 0 auto;
+}
+.footer1-top img{
+   width:255px;
+   height: 51px;
+   margin-top: 10px;
+}
+.footer-top{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.footer-son{
+	width: 25%;
+	height: auto;
+	float: left;
+}
+.footer-son h3{
+	width: 100%;
+	font-size: 25px;
+	color: #FF3A5F;
+	text-align: left;
+	margin-top: 40px;
+	margin-bottom: 36px;
+	font-weight: 400;
+}
+.footer-son ul{
+	width: 100%;
+	height: auto;
+	padding-right: 20px;
+	box-sizing: border-box;
+}
+.footer-son ul li{
+	width: 100%;
+	height: auto;
+}
+.footer-son ul li span{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	color: #323232;
+	text-align: left;
+	padding-bottom: 15px;
+}
+.footer-son ul li a{
+	width: 100%;
+	height: auto;
+	font-size: 14px;
+	color: #323232;
+	text-align: left;
+	padding-bottom: 10px;
+}
+.footer-son ul li a:hover{
+	color: #FF3A5F;
+}
+/* 最后一栏开始 */
+.footer-son:last-child ul li{
+	width: 40px;
+	height: 40px;
+	float: left;
+	 margin-right: 10px;
+}
+.footer-son:last-child ul li a{
+	padding: 0;
+	width: 40px;
+	height: 40px;
+	display: block;
+    background: rgba(56, 56, 56, 0.8);
+    border-radius: 50%;
+    font-size: 18px;
+    color:  #B9B9B9;
+    text-align: center;
+    line-height: 45px;
+   
+}
+.footer-son:last-child ul li .icon-f{
+	 font-size: 26px;
+	 font-weight: 500;
+}
+.footer-son:last-child ul li .icon-vk{
+	 font-size: 22px;
+}
+.footer-son:last-child ul li:first-child a:hover{
+	background: #5D7E9D;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(2) a:hover{
+	background: #2E5AC4;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(3) a:hover{
+	background: #E37117;
+	color: #FF3A5F;
+}
+.footer-son:last-child ul li:nth-child(4) a:hover{
+	background: #678698;
+	color: #FF3A5F;
+}
+/* 最后一栏结束 */
+.footer-bottom{
+	width: 100%;
+	height: 30px;
+	/* background: red; */
+	margin-top: 60px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 30px;
+    color: #bbb;
+}
+/* 底部结束 */

@@ -1,0 +1,231 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-22 19:48:04
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-22 22:08:33
+*/
+body{
+	background: #f5f6fa;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.header-son{
+	width: 2.02rem;
+	height: 100%;
+    margin: 0 auto;
+   background: #0078e6;
+}
+.header-logo{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: url('../img/logo.png') no-repeat center center;
+	background-size: 0.71rem 0.71rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.header-text{
+	width: 1.16rem;
+	height: 100%;
+	float: right;
+	background: #0078e6;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #ffffff;
+}
+.header-top{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.80rem;
+	background: red;
+}
+.banner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 首页开始 */
+.text{
+	width: 100%;
+	height: 0.64rem;
+	/* background: blue; */
+
+}
+.text a{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+.text span{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+/* 首页结束 */
+/* 流程开始 */
+.liucheng{
+	width: 7.04rem;
+	height: 15.45rem;
+	margin: 0 auto;
+	background: #fff;
+}
+.liucheng-top{
+	width: 100%;
+	height: 0.68rem;
+	/* background: red; */
+}
+.liucheng-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+	margin-top: 0.32rem;
+	margin-left: 0.19rem;
+	float: left;
+}
+.liucheng-tright{
+	width: 6.43rem;
+	height: 0.41rem;
+	margin-left: 0.2rem;
+	border-bottom: 0.01rem dashed #999999;
+	font-size: 0.22rem;
+	color: #000;
+	font-weight: bold;
+	padding-top: 0.25rem;
+	float: left;
+}
+.liucheng-text{
+	height: 0.26rem;
+	margin-top: 0.13rem;
+	font-size: 0.22rem;
+	color: #666666;
+	padding-left: 0.4rem;
+	padding-right: 0.67rem;
+	line-height: 0.26rem;
+}
+.lc1{
+	margin-bottom: 0.36rem;
+}
+.lc2{
+	height: 0.63rem;
+	line-height: 0.4rem;
+}
+.liucheng-box{
+	width: 100%;
+	height: 3.65rem;
+	background: #474747;
+	margin-top: 0.3rem;
+	/* margin-bottom: 0.3rem; */
+}
+.liucheng-box1{
+	width: 6.43rem;
+	height: 0.3rem;
+	/* background: red; */
+	border-bottom: 0.01rem dashed #999999;
+	margin-left: 0.43rem;
+}
+.matter-bottom{
+	width: 100%;
+	height: 0.87rem;
+	/* background: pink; */
+}
+.matter-bottom span{
+	font-size: 0.21rem;
+	color: #000;
+	padding-left: 0.2rem;
+	padding-top: 0.3rem;
+	float: left;
+}
+.matter-img1{
+	width: 0.4rem;
+	height: 0.4rem;
+	/* border-radius: 50%; */
+	/* background: red; */
+	float: left;
+	margin-top: 0.28rem;
+	margin-right: 0.2rem;
+}
+.matter-img1 a{
+	width: 0.4rem;
+	height: 0.4rem;
+	/* border-radius: 50%; */
+	display: block;
+}
+.matter-img1 a img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.matter-img2{
+	width: 0.4rem;
+	height: 0.4rem;
+	/* border-radius: 50%; */
+	background: red;
+	float: right;
+	margin-top: 0.28rem;
+	margin-left: 0.2rem;
+}
+.matter-img2 a{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+.matter-img2 a img{
+	width: 0.4rem;
+	height: 0.4rem;
+	display: block;
+}
+/* 流程结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	/* background: gray; */
+	
+}
+footer span{
+	width: 100%;
+	height: 0.21rem;
+	margin-top: 0.25rem;
+	display: block;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.21rem;
+}
+/* 底部结束 */

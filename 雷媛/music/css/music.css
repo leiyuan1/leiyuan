@@ -1,0 +1,271 @@
+/*
+* @Author: lenovo
+* @Date:   2017-08-30 22:59:45
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-09-02 18:55:19
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+body{
+
+	background: url('../img/images/3.jpg');
+	background-size: 100% 635px;
+	background-repeat: no-repeat;
+}
+main{
+	width: 1200px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -600px;
+	background: rgba(30, 30, 30, 0.5)
+	
+}
+.header{
+	width: 100%;
+	height: 10%;
+	/* background: greenyellow; */
+}
+.top{
+	width: 100%;
+	height: 80%;
+	/* background: #dfdfdf; */
+}
+/* 左边开始 */
+.left{
+	width: 50%;
+	height: 100%;
+	/* background: green; */
+	float: left;
+}
+.left-son{
+	width: 55%;
+	height: 100%;
+	/* background: #ff6700; */
+	margin: 0 auto;
+	
+}
+.top1{
+	width: 100%;
+	height:50px;
+	/* background:yellow; */
+   
+
+}
+.left-top{
+	width: 207px;
+	height: 207px;
+	background: #dfdfdf;
+	border: 3px solid rgba(30, 30, 30, 0.3);
+	border-radius: 50%;
+	box-sizing: border-box;
+	margin: 30px auto 10px;
+}
+.left-top img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.time{
+	width: 100px;
+	height: 20px;
+	margin-left: 70%;
+    /* float: right; */
+}
+.progress{
+	width:100%;
+	height: 5px;
+	border-radius: 5px;
+	background: #584E50;
+	margin-top:10px;
+	margin-bottom:60px;
+    position: relative;
+}
+.progress-son{
+	/* width: 10px; */
+	height: 100%;
+	border-radius: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #31C27C;
+
+}
+.left-button{
+	width:50%;
+	height: 100px;
+	/* background: pink; */
+	float: left; 
+}
+.left-button li{
+	width: 50px;
+	height: 50px;
+	float: left;
+	font-size: 45px;
+	color: #BCBCBD;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 50px;
+	/* background: red; */
+	border-radius: 50%;
+	margin-top: 25px;
+
+}
+.left-button .icon-kaishi{
+	font-size: 45px;
+	color: #BCBCBD;
+	 display: block;
+}
+.left-button .icon-zanting{
+	font-size: 45px;
+	color: #BCBCBD;
+	display: block;
+
+}
+.left-button li:last-child{
+	margin-right:0;
+}
+.left-button li:hover{
+	color: #fff;
+	transform: scale(1.2, 1.2);
+	transition: all ease 0.8s;
+}
+.left-attention{
+	width:50%;
+	height:100px;
+	/* background: gray; */
+	float: left;
+}
+.left-attention li{
+	width: 25%;
+	height: 100%;
+	float: left;
+	position: relative;
+	/* background: red; */
+}
+.left-attention li a{
+	width: 100%;
+	height: 100%;
+    display: block;
+    font-size: 24px;
+	color:  #BCBCBD;
+	text-align: center;
+	line-height: 120px;
+}
+.left-attention li a:hover{
+	color: #fff;
+	transform: scale(1.2, 1.2);
+	transition: all ease 0.8s;
+}
+.left-attention .icon-shengyin:hover{
+	color: #fff;
+	transform: none;
+	transition:none;
+}
+/* 声音键 */
+.control{
+	width: 5px;
+	height: 100px;
+	background: #645F5F;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 55px;
+    left: 50%;
+    margin-left: -2px;
+    z-index: 999;
+    display: none;
+}
+
+.control-top{
+	width: 7px;
+	height: 7px;
+	border-radius: 50%;
+	background: #F92672;
+	position: absolute;
+	bottom: 0px;
+	left: -1px;
+}
+.control-bottom{
+	width: 100%;
+	height: 0%;
+	background:  #F92672;
+    border-radius: 5px;
+    position: absolute;
+	bottom:0px;
+	left: 0px;
+}
+/* 左边结束 */
+.right{
+	width: 50%;
+	height: 100%;
+	/* background: blue; */
+	float: right;
+	position: relative;
+}
+.right-top{
+	width: 600px;
+	height: 110px;
+	position: fixed;
+	/* background: red; */
+	/* top: 0; */
+}
+.right-top1{
+	width: 100%;
+	height: 110px;
+}
+.right-top h2{
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+.right-top span{
+    width: 100%;
+    height: 30px;
+    font-size: 18px;
+    color: #4C6173;
+    
+}
+.right-top a{
+    width: 100%;
+    height: 30px;
+    font-size: 20px;
+    color: #fff;
+    
+}
+.lyrics{
+	width: 100%;
+	height: 70%;
+	/* background: #dfdfdf; */
+	margin-top: 20px;
+	overflow: hidden;
+}
+.lyrics li{
+	width: 100%;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	color: #DFE0E1;
+	margin-bottom:10px;
+	transition: all ease 0.8s;
+}
+.bottom{
+	width: 100%;
+	height: 10%;
+	/* background: yellow; */
+	font-size: 30px;
+	color: blue;
+	font-weight: bold;
+	text-align: center;
+	line-height: 50px;
+}
+
+

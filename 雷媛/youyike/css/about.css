@@ -1,0 +1,292 @@
+/*
+* @Author: lenovo
+* @Date:   2017-07-20 15:45:49
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-07-23 16:29:40
+*/
+html{
+	background: #f5f6fa;
+}
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	
+}
+/* 头部开始 */
+header{
+	width: 100%;
+	height: 0.92rem;
+	background: #0078e6;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+.header-son{
+	width: 2.02rem;
+	height: 100%;
+    margin: 0 auto;
+   background: #0078e6;
+}
+.header-logo{
+	width: 0.71rem;
+	height: 0.71rem;
+	background: url('../img/logo.png') no-repeat center center;
+	background-size: 0.71rem 0.71rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.header-text{
+	width: 1.16rem;
+	height: 100%;
+	float: right;
+	background: #0078e6;
+	font-size: 0.35rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #ffffff;
+}
+.header-top{
+	width: 100%;
+	height: 0.92rem;
+}
+/* 头部结束 */
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.80rem;
+	background: red;
+}
+.banner a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.banner a img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 关于我们开始 */
+.about{
+	width: 100%;
+	height: 8.07rem;
+	/* background: red; */
+}
+.about-top{
+	width: 100%;
+	height: 0.64rem;
+	/* background: blue; */
+
+}
+.about-top a{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+.about-top span{
+	height: 100%;
+	display: block;
+	font-size: 0.21rem;
+	color: #000;
+	margin-left: 0.23rem;
+	line-height: 0.64rem;
+	float: left;
+
+}
+.about-content{
+	width: 7.04rem;
+	height: 7.43rem;
+	margin: 0 auto;
+	background: #fff;
+}
+.content-top{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+	overflow: hidden;
+
+}
+.content-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+    margin-top: 0.32rem;
+    margin-left: 0.19rem;
+    float: left;
+}
+.content-tright{
+	width: 90%;
+	height: 0.36rem;
+	background: #fff;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.23rem;
+     font-weight: bold;
+    color:#444444;
+    line-height: 0.23rem; 
+    border-bottom: 0.01rem dashed #999999;
+    float: left;
+}
+.content-bottom{
+	width: 90%;
+	margin-left: 0.43rem;
+	height: 6.75rem;
+	/* background: blue; */
+
+}
+.content-bottom p{
+	width: 100%;
+	height: 50%;
+	font-size: 0.21rem;
+	color: #666666;
+	margin-bottom: 0.3rem;
+	margin-top: 0.05rem;
+	
+}
+/* 关于我们结束 */
+/* 企业文化开始 */
+.qiye{
+	width: 7.04rem;
+	height: 2.75rem;
+	margin:0.1rem auto;
+	background: #fff;
+}
+.qiye-top{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+	overflow: hidden;
+
+}
+.qiye-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+    margin-top: 0.32rem;
+    margin-left: 0.19rem;
+    float: left;
+}
+.qiye-tright{
+	width: 90%;
+	height: 0.36rem;
+	background: #fff;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.23rem;
+     font-weight: bold;
+    color:#444444;
+    line-height: 0.23rem; 
+    border-bottom: 0.01rem dashed #999999;
+    float: left;
+}
+.qiye-bottom{
+	width: 100%;
+	height: 2.06rem;
+	/* background: red; */
+}
+.qiye-bottom a{
+	width: 1.34rem;
+	height: 1.34rem;
+	/* border-radius: 50%; */
+	/* background: yellow; */
+	float: left;
+	margin-top: 0.35rem;
+	margin-left: 0.75rem;
+}
+.qiye-bottom a img{
+	width: 1.34rem;
+	height: 1.34rem;
+	display: block;
+}
+/* 企业文化结束 */
+/* 公司理念开始 */
+.gongsi{
+	width: 7.04rem;
+	height: 1.33rem;
+	margin:0.1rem auto;
+	background: #fff;
+}
+.gongsi-top{
+	width: 100%;
+	height: 0.68rem;
+	background: #fff;
+	overflow: hidden;
+
+}
+.gongsi-tleft{
+	width: 0.04rem;
+	height: 0.2rem;
+	background: #01b5ff;
+    margin-top: 0.32rem;
+    margin-left: 0.19rem;
+    float: left;
+}
+.gongsi-tright{
+	width: 90%;
+	height: 0.36rem;
+	background: #fff;
+    margin-top: 0.3rem;
+    margin-left: 0.2rem;
+    font-size: 0.23rem;
+    font-weight: bold;
+    color:#444444;
+    line-height: 0.23rem; 
+    border-bottom: 0.01rem dashed #999999;
+    float: left;
+}
+.gongsi-bottom{
+	width: 90%;
+	height:0.51rem;
+	font-size: 0.23rem;
+	color: #666666;
+	padding-top: 0.14rem;
+	margin-left: 0.43rem; 
+}
+/* 公司理念结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 3.15rem;
+	/* background: red; */
+	overflow: hidden;
+}
+footer a{
+	width: 1.69rem;
+	height: 1.69rem;
+	margin:0.25rem auto 0.29rem;
+	/* background:yellow; */
+	display: block; 
+}
+footer a img{
+	width: 1.69rem;
+	height: 1.69rem;
+	display: block; 
+}
+.last{
+	width: 100%;
+	height: 0.92rem;
+	/* background: gray; */
+	font-size: 0.21rem;
+	color: #666666;
+	text-align: center;
+}
+.last span{
+	width: 100%;
+	height: 0.21rem;
+	margin-top: 0.25rem;
+	display: block;
+	font-size: 0.16rem;
+	color: #666666;
+	text-align: center;
+	line-height: 0.21rem;
+}
+/* 底部结束 */

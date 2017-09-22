@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>留言板</title>
+		<link rel="stylesheet" href="css/liuyanban.css" />
+		<script src="js/charu.js"></script>
+		<script src="js/liuyanban.js"></script>
+	</head>
+	<body>
+		<div class="message">
+		    <div class="message-top">
+		    	<input type="radio" name="background" checked="checked"/>
+		    	<input type="radio" name="background" />
+		    	<input type="radio" name="background" />
+		    	<input type="radio" name="background" />
+		    	<span>发表留言</span>
+		    	
+		    </div>
+		    <div class="ni">
+		    	<span>昵称(*):</span>
+		        <input type="text" name="username" class="nickname" value=""/>
+		    </div>
+		    <div class="nei">
+		    	<span>内容(*):</span>
+			    <textarea name="liuyanban" value="" maxlength="120">
+		        </textarea>
+		    </div>
+			<input type="submit" value="提交留言" class="tijiao"/>
+		    <div class="rest">剩余字数：</div>
+		</div>
+		
+		<!--<ul class="liuyan">
+			<li>
+				
+			</li>
+		</ul>-->
+		<div class="message-list">
+			<div class="list-top">留言列表</div>
+			<ul class="item">
+				<li>
+					<img src="img/t01d3129e14b9123327.jpg" alt="" />
+					<div class="text">
+						<h1>昵称:</h1>
+						<div class="content">
+							这是留言
+						</div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		
+	</body>
+</html>
